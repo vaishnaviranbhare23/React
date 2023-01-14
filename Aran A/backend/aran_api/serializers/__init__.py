@@ -1,1 +1,0 @@
-from .mapdata import MapDataSerializer

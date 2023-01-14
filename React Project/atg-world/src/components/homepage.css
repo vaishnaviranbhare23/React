@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.fontStyle {
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+.headingStyle {
+  font-family: "Playfair Display", serif;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+.showMenu{
+  display: none;
+}
+
+@media only screen and (max-width: 988px) {
+  .showMenu{
+    display: flex;
+  }
+}
+
+.article-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+  .article-img-holder {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.article-img-holder:hover {
+  transform: scale(1.2);
+}
+
+.article-title {
+
+  position: absolute;
+  bottom: 0;
+  top:20px;
+  padding: 10px;
+}
+
+.hidden-navbar
+{
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+.navbar {
+  background-color: rgb(255 255 255 / 90%)
+}
