@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+.bgNav {
+  background-color: #ffffff;
+}
+.MuiOutlinedInput-input {
+  padding: 10px 14px;
+}
+.nav__title {
+  /* font-family: "Merriweather Sans", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  color: #86c8ff;
+  border-left: 1px solid #cfcfcf;
+  height: 100px;
+  padding: 6px;
+}
+.nav__logo {
+  width: 40px;
+  padding: 2px;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+}

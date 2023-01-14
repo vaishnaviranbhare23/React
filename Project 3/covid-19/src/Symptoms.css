@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+.symptoms > h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #98d8fd;
+  font-size: 60px;
+}
+.symptoms__card {
+  width: 70% !important;
+}
+li {
+  color: #767676;
+}
+.precautions {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #789fb6;
+  font-size: 60px;
+}
