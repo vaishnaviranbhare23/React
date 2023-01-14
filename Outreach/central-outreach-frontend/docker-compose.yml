@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  outreach-front:
+    image: outreach-front:5
+    ports:
+      - "8082:3000"
+    volumes:
+      - ./src:/usr/src/app/src
+      - ./public:/usr/src/app/public
+    networks:
+      - inbound
+        
+     
+networks:
+  inbound:
+    external: true
+
+
+
+

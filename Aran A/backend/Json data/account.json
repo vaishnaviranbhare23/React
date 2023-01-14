@@ -1,0 +1,1 @@
+[{"model": "aran_api.account", "pk": 1, "fields": {"password": "pbkdf2_sha256$260000$7YhPPY7T4R5kccq3CZJ06N$Y6TGVpeqgikCuZmdQjjndbpEScue2pYj1iwCWTXKwp0=", "email": "vaish@gmail.com", "username": "vaish", "date_joined": "2021-12-01T10:36:09.680Z", "last_login": "2021-12-01T10:36:09.680Z"}}]

@@ -1,0 +1,26 @@
+//CUSTOMIZER
+export const ADD_COSTOMIZER = "ADD_COSTOMIZER";
+export const ADD_LAYOUT = "ADD_LAYOUT";
+export const ADD_SIDEBAR_TYPES = "ADD_SIDEBAR_TYPES";
+export const ADD_SIDEBAR_SETTINGS = "ADD_SIDEBAR_SETTINGS";
+export const ADD_COLOR = "ADD_COLOR";
+export const ADD_MIXlAYOUT = "ADD_MIXlAYOUT";
+export const ADD_TRANSPlAYOUT = "ADD_TRANSPlAYOUT";
+export const ADD_SIDEBAR_BACKGROUND = "ADD_SIDEBAR_BACKGROUND";
+export const ROUTER_ANIMATION = "ROUTER_ANIMATION";
+
+// Auth
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_USER = "SET_USER";
+export const SET_ROLE = "SET_ROLE";
+export const SET_EMAIL = "SET_EMAIL";
+export const SET_FIRST_NAME = "SET_FIRST_NAME";
+export const SET_LAST_NAME = "SET_LAST_NAME";
+
+export const SET_LOGOUT = "SET_LOGOUT";
+export const SET_VERIFIED = "SET_VERIFIED";
+export const SET_LAST_LOGIN = "SET_LAST_LOGIN";
+
+// Statistics Cards
+export const SET_CARDS_DATA = "SET_CARDS_DATA";
+export const SET_CARD_STATS_DATA_RECEIVED = "SET_DATA_RECEIVED";
